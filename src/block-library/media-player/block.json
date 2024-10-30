@@ -1,0 +1,22 @@
+{
+	"apiVersion": 2,
+	"name": "media-manager/media-player",
+	"title": "Player Player",
+	"category": "media",
+	"description": "Compose your custom media player with blocks",
+	"supports": {
+		"align": true,
+		"media-manager/connect-consumer": true,
+		"media-manager/media-selector": true,
+		"media-manager/color": {
+			"background": {
+				"label": "Background color",
+				"style": "background-color"
+			}
+		}
+	},
+	"textdomain": "media-manager",
+	"editorScript": "fancy-blocks/media-manager",
+	"editorStyle": "fancy-blocks/media-manager",
+	"style": "fancy-blocks/media-manager-front-end"
+}

@@ -1,0 +1,19 @@
+.wp-block-media-manager-play-pause-button {
+	.player-play-pause-icon {
+		display: none;
+	}
+
+	.player-pause-icon {
+		display: block;
+	}
+
+	.is-media-paused {
+		.player-play-pause-icon {
+			display: block;
+		}
+	
+		.player-pause-icon {
+			display: none;
+		}
+	}
+}

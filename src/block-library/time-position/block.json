@@ -1,0 +1,28 @@
+{
+	"apiVersion": 2,
+	"name": "media-manager/time-position-display",
+	"title": "Time position display",
+	"category": "media",
+	"description": "Block to display the current time position of the media.",
+	"supports": {
+		"media-manager/connect-consumer": true,
+		"media-manager/media-selector": true,
+		"typography": {
+			"fontSize": true,
+			"lineHeigh": true,
+			"__experimentalFontStyle": true,
+			"__experimentalFontWeight": true,
+			"__experimentalFontFamily": true
+		},
+		"media-manager/color": {
+			"text": {
+				"label": "Text color"
+			},
+			"__sectionTitle": "Color"
+		}
+	},
+	"textdomain": "media-manager",
+	"editorScript": "fancy-blocks/media-manager",
+	"editorStyle": "fancy-blocks/media-manager",
+	"style": "fancy-blocks/media-manager-front-end"
+}

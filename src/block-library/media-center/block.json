@@ -1,0 +1,16 @@
+{
+	"apiVersion": 2,
+	"name": "media-manager/media-center",
+	"title": "Media Center",
+	"category": "media",
+	"description": "Manage all media sources, comfortable, from your couch.",
+	"supports": {
+		"align": true,
+		"media-manager/connect-consumer": true,
+		"media-manager/media-selector": true
+	},
+	"textdomain": "media-manager",
+	"editorScript": "fancy-blocks/media-manager",
+	"editorStyle": "fancy-blocks/media-manager",
+	"style": "fancy-blocks/media-manager-front-end"
+}
